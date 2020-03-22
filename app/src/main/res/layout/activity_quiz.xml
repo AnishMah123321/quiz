@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".QuizActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BDFF84"
+
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Question 1 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="1. Which e-sport game had the first million dollar prize?  "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_one_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fortnite"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/transition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dota2"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apex Legends"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokemon go"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- Question 2 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="2.In 2014, which game's championship had more viewers than 3 of the main sport's championships??"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_two_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dota2"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call of duty"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/mainact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="League of legends"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mortal Combat"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- Question 3 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="3. Which of these Overwatch League teams won the league's inaugural season??"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_three_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="London Spitfire"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Philadelphia Fusion"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los Angeles Gladiators"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shanghai Dragons"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+
+        <!-- Question 4 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="4. How many teams are in the NBA 2K League??"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_four_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/fournumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="5. How many more colleges and universities had varsity Esports programs in 2018 than 2016? "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <!-- Question 5 -->
+
+        <RadioGroup
+            android:id="@+id/num_five_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="83"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/listener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="56"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="78"
+                android:textSize="16sp" />
+
+
+        </RadioGroup>
+
+        <!-- Question 6 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="6. What streaming service does both the 2K League and Overwatch League broadcast on?? "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Please enter your answer"
+            android:inputType="text" />
+
+        <!-- Question 7 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="7. which company owns the game Dota 2? "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Please enter your answer"
+            android:inputType="text" />
+
+
+        <!-- Question 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="8. Which characters are from apex legends?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/one_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bangalore"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/two_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wraith"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/three_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pudge"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/four_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:text="Watson"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>
